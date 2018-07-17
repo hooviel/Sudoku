@@ -21,5 +21,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/hooviel/Sudoku.git", :tag => s.version }
   s.source_files  = "*.{h,m}"
   s.requires_arc = true
+
+  s.dependency "YYModel"
+  #s.dependency "YYText"
   
 end
