@@ -17,12 +17,8 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "David" => "hooviel@qq.com" }
   s.ios.deployment_target = "8.0"
-  s.osx.deployment_target = "10.3"
   s.source       = { :git => "https://github.com/hooviel/Sudoku.git", :tag => s.version }
   s.source_files  = "*.{h,m}"
   s.requires_arc = true
-  
-#  s.dependency "JSONKit", "~>1.0.4"
-  s.dependency "YYModel"
   
 end
