@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.author             = { "David" => "hooviel@qq.com" }
   s.ios.deployment_target = "5.0"
   s.osx.deployment_target = "10.7"
-  s.source       = { :git => "https://github.com/hooviel/Sudoku.git", :tag => s.version }" 
+  s.source       = { :git => "https://github.com/hooviel/Sudoku.git", :tag => s.version }
   s.source_files  = "*.{h,m}"
   s.requires_arc = true
 
