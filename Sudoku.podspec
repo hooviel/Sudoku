@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "Sudoku"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "数独算法实体类"
   s.description  = <<-DESC
   数独算法实体类
